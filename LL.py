@@ -138,7 +138,7 @@ myLL.append(2)
 myLL.append(3)
 myLL.append(4)
 myLL.print_list()
-print(f"Middle: {myLL.find_middle_node()}")
+print(f"Middle: {myLL.find_middle_node()}") # Finds the middle Node
 print(f"Length: {myLL.length}")
 print(f"Head: {myLL.head.value if myLL.head is not None else "None"}")
 print(f"Tail: {myLL.tail.value if myLL.tail is not None else "None"}")
