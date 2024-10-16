@@ -161,7 +161,7 @@ myLL.append(2);
 myLL.append(3);
 myLL.append(4);
 myLL.printList();
-console.log(`Middle: ${myLL.findMiddleNode()}`);
+console.log(`Middle: ${myLL.findMiddleNode()}`);//Finds the node in the middle
 console.log(`Length: ${myLL.length}`);
 console.log(`Head: ${myLL.head ? myLL.head.value : "None"}`);
 console.log(`Tail: ${myLL.tail ? myLL.tail.value : "None"}`);
